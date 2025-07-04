@@ -1,0 +1,939 @@
+wait("0.2")
+local NotrufHamburgZevox = Instance.new("ScreenGui")
+local ScriptFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SideFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local ScriptLogo = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local HubName = Instance.new("TextLabel")
+local HomeButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local LocalPlayerButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local OPButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local AimBot = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local CreditsButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local HomeText = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local LocalPlayerMods = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local SpeedBoost = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local SpeedBoostOff = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local JumpPower = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local JumpPowerOff = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local OpMods = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local killroblox = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Crasher = Instance.new("TextLabel")
+local Spawnvehicle = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Vehicle = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local AimBot_2 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local SpinBot = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local SpinBotOff = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local AimBot_3 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local AimBotOff = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local LoadFrame = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local Load = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local LoadLogo = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local LoadingFrame = Instance.new("Frame")
+local Loading = Instance.new("TextLabel")
+local UICorner_28 = Instance.new("UICorner")
+local LoadingLogo = Instance.new("TextLabel")
+local UICorner_29 = Instance.new("UICorner")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local uidrag = Instance.new("UIDragDetector")
+
+
+NotrufHamburgZevox.Name = "NotrufHamburgZevox"
+NotrufHamburgZevox.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+NotrufHamburgZevox.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = NotrufHamburgZevox
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptFrame.BorderSizePixel = 0
+ScriptFrame.Position = UDim2.new(0.015696533, 0, 0.42964825, 0)
+ScriptFrame.Size = UDim2.new(0, 656, 0, 419)
+ScriptFrame.Visible = false
+
+uidrag.Parent = ScriptFrame
+
+UICorner.Parent = ScriptFrame
+
+SideFrame.Name = "SideFrame"
+SideFrame.Parent = ScriptFrame
+SideFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+SideFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SideFrame.BorderSizePixel = 0
+SideFrame.Size = UDim2.new(0, 122, 0, 419)
+
+UICorner_2.Parent = SideFrame
+
+ScriptLogo.Name = "ScriptLogo"
+ScriptLogo.Parent = ScriptFrame
+ScriptLogo.BackgroundColor3 = Color3.fromRGB(8, 127, 200)
+ScriptLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptLogo.BorderSizePixel = 0
+ScriptLogo.Position = UDim2.new(0.0152439028, 0, 0.0214797128, 0)
+ScriptLogo.Size = UDim2.new(0, 37, 0, 39)
+ScriptLogo.Font = Enum.Font.FredokaOne
+ScriptLogo.Text = "ZX"
+ScriptLogo.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptLogo.TextScaled = true
+ScriptLogo.TextSize = 14.000
+ScriptLogo.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 90)
+UICorner_3.Parent = ScriptLogo
+
+UIAspectRatioConstraint.Parent = ScriptLogo
+
+HubName.Name = "HubName"
+HubName.Parent = ScriptFrame
+HubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubName.BackgroundTransparency = 1.000
+HubName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HubName.BorderSizePixel = 0
+HubName.Position = UDim2.new(-0.0167682935, 0, 0.00477326987, 0)
+HubName.Size = UDim2.new(0, 200, 0, 50)
+HubName.Font = Enum.Font.SourceSans
+HubName.Text = "Zevox hub"
+HubName.TextColor3 = Color3.fromRGB(255, 255, 255)
+HubName.TextSize = 14.000
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = ScriptFrame
+HomeButton.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
+HomeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeButton.BorderSizePixel = 0
+HomeButton.Position = UDim2.new(0.0304878056, 0, 0.190930784, 0)
+HomeButton.Size = UDim2.new(0, 82, 0, 24)
+HomeButton.Font = Enum.Font.SourceSans
+HomeButton.Text = "Home"
+HomeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomeButton.TextSize = 14.000
+
+UICorner_4.Parent = HomeButton
+
+LocalPlayerButton.Name = "LocalPlayerButton"
+LocalPlayerButton.Parent = ScriptFrame
+LocalPlayerButton.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
+LocalPlayerButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LocalPlayerButton.BorderSizePixel = 0
+LocalPlayerButton.Position = UDim2.new(0.0304878056, 0, 0.300715983, 0)
+LocalPlayerButton.Size = UDim2.new(0, 82, 0, 24)
+LocalPlayerButton.Font = Enum.Font.SourceSans
+LocalPlayerButton.Text = "LocalPlayer"
+LocalPlayerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+LocalPlayerButton.TextSize = 14.000
+
+UICorner_5.Parent = LocalPlayerButton
+
+OPButton.Name = "OPButton"
+OPButton.Parent = ScriptFrame
+OPButton.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
+OPButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OPButton.BorderSizePixel = 0
+OPButton.Position = UDim2.new(0.0304878056, 0, 0.412887841, 0)
+OPButton.Size = UDim2.new(0, 82, 0, 24)
+OPButton.Font = Enum.Font.SourceSans
+OPButton.Text = "OP"
+OPButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OPButton.TextSize = 14.000
+
+UICorner_6.Parent = OPButton
+
+AimBot.Name = "AimBot"
+AimBot.Parent = ScriptFrame
+AimBot.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
+AimBot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimBot.BorderSizePixel = 0
+AimBot.Position = UDim2.new(0.0304878056, 0, 0.522673011, 0)
+AimBot.Size = UDim2.new(0, 82, 0, 24)
+AimBot.Font = Enum.Font.SourceSans
+AimBot.Text = "AimBot"
+AimBot.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimBot.TextSize = 14.000
+
+UICorner_7.Parent = AimBot
+
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = ScriptFrame
+CreditsButton.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
+CreditsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreditsButton.BorderSizePixel = 0
+CreditsButton.Position = UDim2.new(0.0304878056, 0, 0.627684951, 0)
+CreditsButton.Size = UDim2.new(0, 82, 0, 24)
+CreditsButton.Font = Enum.Font.SourceSans
+CreditsButton.Text = "Credits"
+CreditsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreditsButton.TextSize = 14.000
+
+UICorner_8.Parent = CreditsButton
+
+Close.Name = "Close"
+Close.Parent = ScriptFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.928353667, 0, 0, 0)
+Close.Size = UDim2.new(0, 47, 0, 50)
+Close.Font = Enum.Font.FredokaOne
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UICorner_9.Parent = Close
+
+HomeText.Name = "HomeText"
+HomeText.Parent = ScriptFrame
+HomeText.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+HomeText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeText.BorderSizePixel = 0
+HomeText.Position = UDim2.new(0.222560972, 0, 0.11933174, 0)
+HomeText.Size = UDim2.new(0, 463, 0, 326)
+HomeText.Font = Enum.Font.SourceSans
+HomeText.Text = "Choose one of the blue options"
+HomeText.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomeText.TextScaled = true
+HomeText.TextSize = 14.000
+HomeText.TextWrapped = true
+
+UICorner_10.Parent = HomeText
+
+LocalPlayerMods.Name = "LocalPlayerMods"
+LocalPlayerMods.Parent = ScriptFrame
+LocalPlayerMods.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LocalPlayerMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LocalPlayerMods.BorderSizePixel = 0
+LocalPlayerMods.Position = UDim2.new(0.222560972, 0, 0.124105014, 0)
+LocalPlayerMods.Size = UDim2.new(0, 463, 0, 324)
+LocalPlayerMods.Visible = false
+LocalPlayerMods.Font = Enum.Font.SourceSans
+LocalPlayerMods.Text = ""
+LocalPlayerMods.TextColor3 = Color3.fromRGB(0, 0, 0)
+LocalPlayerMods.TextSize = 14.000
+
+UICorner_11.Parent = LocalPlayerMods
+
+SpeedBoost.Name = "SpeedBoost"
+SpeedBoost.Parent = LocalPlayerMods
+SpeedBoost.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+SpeedBoost.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedBoost.BorderSizePixel = 0
+SpeedBoost.Position = UDim2.new(0.0561555065, 0, 0.0740740746, 0)
+SpeedBoost.Size = UDim2.new(0, 200, 0, 50)
+SpeedBoost.Font = Enum.Font.SourceSans
+SpeedBoost.Text = "SpeedBoost"
+SpeedBoost.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedBoost.TextSize = 14.000
+
+UICorner_12.Parent = SpeedBoost
+
+SpeedBoostOff.Name = "SpeedBoostOff"
+SpeedBoostOff.Parent = LocalPlayerMods
+SpeedBoostOff.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+SpeedBoostOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedBoostOff.BorderSizePixel = 0
+SpeedBoostOff.Position = UDim2.new(0.669546425, 0, 0.0740740746, 0)
+SpeedBoostOff.Size = UDim2.new(0, 127, 0, 50)
+SpeedBoostOff.Font = Enum.Font.SourceSans
+SpeedBoostOff.Text = "Off"
+SpeedBoostOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedBoostOff.TextSize = 14.000
+
+UICorner_13.Parent = SpeedBoostOff
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = LocalPlayerMods
+JumpPower.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+JumpPower.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower.BorderSizePixel = 0
+JumpPower.Position = UDim2.new(0.0561555065, 0, 0.333333343, 0)
+JumpPower.Size = UDim2.new(0, 200, 0, 50)
+JumpPower.Font = Enum.Font.SourceSans
+JumpPower.Text = "JumpPower"
+JumpPower.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower.TextSize = 14.000
+
+UICorner_14.Parent = JumpPower
+
+JumpPowerOff.Name = "JumpPowerOff"
+JumpPowerOff.Parent = LocalPlayerMods
+JumpPowerOff.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+JumpPowerOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPowerOff.BorderSizePixel = 0
+JumpPowerOff.Position = UDim2.new(0.669546425, 0, 0.333333343, 0)
+JumpPowerOff.Size = UDim2.new(0, 127, 0, 50)
+JumpPowerOff.Font = Enum.Font.SourceSans
+JumpPowerOff.Text = "Off"
+JumpPowerOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpPowerOff.TextSize = 14.000
+
+UICorner_15.Parent = JumpPowerOff
+
+OpMods.Name = "OpMods"
+OpMods.Parent = ScriptFrame
+OpMods.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+OpMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpMods.BorderSizePixel = 0
+OpMods.Position = UDim2.new(0.222560972, 0, 0.11933174, 0)
+OpMods.Size = UDim2.new(0, 463, 0, 326)
+OpMods.Visible = false
+OpMods.Font = Enum.Font.SourceSans
+OpMods.Text = ""
+OpMods.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpMods.TextSize = 14.000
+
+UICorner_16.Parent = OpMods
+
+killroblox.Name = "kill roblox"
+killroblox.Parent = OpMods
+killroblox.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+killroblox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+killroblox.BorderSizePixel = 0
+killroblox.Position = UDim2.new(0.282937378, 0, 0.297545999, 0)
+killroblox.Size = UDim2.new(0, 200, 0, 50)
+killroblox.Font = Enum.Font.SourceSans
+killroblox.Text = "kill roblox"
+killroblox.TextColor3 = Color3.fromRGB(0, 0, 0)
+killroblox.TextSize = 14.000
+
+UICorner_17.Parent = killroblox
+
+Crasher.Name = "Crasher"
+Crasher.Parent = OpMods
+Crasher.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Crasher.BackgroundTransparency = 1.000
+Crasher.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Crasher.BorderSizePixel = 0
+Crasher.Position = UDim2.new(0.263498932, 0, 0.144171774, 0)
+Crasher.Size = UDim2.new(0, 200, 0, 50)
+Crasher.Font = Enum.Font.SourceSans
+Crasher.Text = "crasher"
+Crasher.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crasher.TextScaled = true
+Crasher.TextSize = 14.000
+Crasher.TextWrapped = true
+
+Spawnvehicle.Name = "Spawn vehicle"
+Spawnvehicle.Parent = OpMods
+Spawnvehicle.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+Spawnvehicle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Spawnvehicle.BorderSizePixel = 0
+Spawnvehicle.Position = UDim2.new(0.282937378, 0, 0.726993859, 0)
+Spawnvehicle.Size = UDim2.new(0, 200, 0, 50)
+Spawnvehicle.Font = Enum.Font.SourceSans
+Spawnvehicle.Text = "vehicle"
+Spawnvehicle.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spawnvehicle.TextSize = 14.000
+
+UICorner_18.Parent = Spawnvehicle
+
+Vehicle.Name = "Vehicle"
+Vehicle.Parent = OpMods
+Vehicle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Vehicle.BackgroundTransparency = 1.000
+Vehicle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Vehicle.BorderSizePixel = 0
+Vehicle.Position = UDim2.new(0.282937378, 0, 0.536809802, 0)
+Vehicle.Size = UDim2.new(0, 200, 0, 50)
+Vehicle.Font = Enum.Font.SourceSans
+Vehicle.Text = "vehicle"
+Vehicle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vehicle.TextScaled = true
+Vehicle.TextSize = 14.000
+Vehicle.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = ScriptFrame
+Credits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.222560972, 0, 0.124105014, 0)
+Credits.Size = UDim2.new(0, 463, 0, 324)
+Credits.Visible = false
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "fully made by zevox"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+UICorner_19.Parent = Credits
+
+AimBot_2.Name = "AimBot"
+AimBot_2.Parent = ScriptFrame
+AimBot_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AimBot_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimBot_2.BorderSizePixel = 0
+AimBot_2.Position = UDim2.new(0.222560972, 0, 0.11933174, 0)
+AimBot_2.Size = UDim2.new(0, 463, 0, 326)
+AimBot_2.Visible = false
+AimBot_2.Font = Enum.Font.SourceSans
+AimBot_2.Text = ""
+AimBot_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimBot_2.TextSize = 14.000
+
+UICorner_20.Parent = AimBot_2
+
+SpinBot.Name = "SpinBot"
+SpinBot.Parent = AimBot_2
+SpinBot.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+SpinBot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpinBot.BorderSizePixel = 0
+SpinBot.Position = UDim2.new(0.0539956801, 0, 0.128834352, 0)
+SpinBot.Size = UDim2.new(0, 200, 0, 50)
+SpinBot.Font = Enum.Font.SourceSans
+SpinBot.Text = "SpinBot"
+SpinBot.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpinBot.TextSize = 14.000
+
+UICorner_21.Parent = SpinBot
+
+SpinBotOff.Name = "SpinBotOff"
+SpinBotOff.Parent = AimBot_2
+SpinBotOff.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+SpinBotOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpinBotOff.BorderSizePixel = 0
+SpinBotOff.Position = UDim2.new(0.622030258, 0, 0.128834352, 0)
+SpinBotOff.Size = UDim2.new(0, 146, 0, 50)
+SpinBotOff.Font = Enum.Font.SourceSans
+SpinBotOff.Text = "Off"
+SpinBotOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpinBotOff.TextSize = 14.000
+
+UICorner_22.Parent = SpinBotOff
+
+AimBot_3.Name = "AimBot"
+AimBot_3.Parent = AimBot_2
+AimBot_3.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+AimBot_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimBot_3.BorderSizePixel = 0
+AimBot_3.Position = UDim2.new(0.0539956801, 0, 0.37730062, 0)
+AimBot_3.Size = UDim2.new(0, 200, 0, 50)
+AimBot_3.Font = Enum.Font.SourceSans
+AimBot_3.Text = "AimBot"
+AimBot_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimBot_3.TextSize = 14.000
+
+UICorner_23.Parent = AimBot_3
+
+AimBotOff.Name = "AimBotOff"
+AimBotOff.Parent = AimBot_2
+AimBotOff.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+AimBotOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimBotOff.BorderSizePixel = 0
+AimBotOff.Position = UDim2.new(0.622030258, 0, 0.37730062, 0)
+AimBotOff.Size = UDim2.new(0, 146, 0, 50)
+AimBotOff.Font = Enum.Font.SourceSans
+AimBotOff.Text = "Off"
+AimBotOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimBotOff.TextSize = 14.000
+
+UICorner_24.Parent = AimBotOff
+
+LoadFrame.Name = "LoadFrame"
+LoadFrame.Parent = NotrufHamburgZevox
+LoadFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+LoadFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadFrame.BorderSizePixel = 0
+LoadFrame.Position = UDim2.new(0.285153687, 0, 0.236180902, 0)
+LoadFrame.Size = UDim2.new(0, 656, 0, 419)
+
+UICorner_25.Parent = LoadFrame
+
+Load.Name = "Load"
+Load.Parent = LoadFrame
+Load.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Load.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Load.BorderSizePixel = 0
+Load.Position = UDim2.new(0.217987806, 0, 0.329355597, 0)
+Load.Size = UDim2.new(0, 370, 0, 142)
+Load.Font = Enum.Font.SourceSans
+Load.Text = "Load"
+Load.TextColor3 = Color3.fromRGB(0, 0, 0)
+Load.TextScaled = true
+Load.TextSize = 14.000
+Load.TextWrapped = true
+
+UICorner_26.Parent = Load
+
+LoadLogo.Name = "LoadLogo"
+LoadLogo.Parent = LoadFrame
+LoadLogo.BackgroundColor3 = Color3.fromRGB(8, 127, 200)
+LoadLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadLogo.BorderSizePixel = 0
+LoadLogo.Position = UDim2.new(0.0152439028, 0, 0.0214797128, 0)
+LoadLogo.Size = UDim2.new(0, 37, 0, 39)
+LoadLogo.Font = Enum.Font.FredokaOne
+LoadLogo.Text = "ZX"
+LoadLogo.TextColor3 = Color3.fromRGB(0, 0, 0)
+LoadLogo.TextScaled = true
+LoadLogo.TextSize = 14.000
+LoadLogo.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0, 90)
+UICorner_27.Parent = LoadLogo
+
+UIAspectRatioConstraint_2.Parent = LoadLogo
+
+LoadingFrame.Name = "LoadingFrame"
+LoadingFrame.Parent = NotrufHamburgZevox
+LoadingFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+LoadingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadingFrame.BorderSizePixel = 0
+LoadingFrame.Position = UDim2.new(0.284999996, 0, 0.236000001, 0)
+LoadingFrame.Size = UDim2.new(0, 656, 0, 419)
+LoadingFrame.Visible = false
+
+Loading.Name = "Loading"
+Loading.Parent = LoadingFrame
+Loading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Loading.BackgroundTransparency = 1.000
+Loading.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loading.BorderSizePixel = 0
+Loading.Size = UDim2.new(0, 656, 0, 419)
+Loading.Font = Enum.Font.SourceSans
+Loading.Text = "Loading"
+Loading.TextColor3 = Color3.fromRGB(0, 0, 0)
+Loading.TextScaled = true
+Loading.TextSize = 14.000
+Loading.TextWrapped = true
+
+UICorner_28.Parent = LoadingFrame
+
+LoadingLogo.Name = "LoadingLogo"
+LoadingLogo.Parent = LoadingFrame
+LoadingLogo.BackgroundColor3 = Color3.fromRGB(8, 127, 200)
+LoadingLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadingLogo.BorderSizePixel = 0
+LoadingLogo.Position = UDim2.new(0.0152439028, 0, 0.0214797128, 0)
+LoadingLogo.Size = UDim2.new(0, 37, 0, 39)
+LoadingLogo.Font = Enum.Font.FredokaOne
+LoadingLogo.Text = "ZX"
+LoadingLogo.TextColor3 = Color3.fromRGB(0, 0, 0)
+LoadingLogo.TextScaled = true
+LoadingLogo.TextSize = 14.000
+LoadingLogo.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0, 90)
+UICorner_29.Parent = LoadingLogo
+
+UIAspectRatioConstraint_3.Parent = LoadingLogo
+
+--UICorner SHIT:
+
+UICorner.Parent = LoadFrame
+UICorner.Parent = Load
+UICorner.Parent = LoadLogo
+UICorner.Parent = LoadingFrame
+UICorner.Parent = LoadingLogo
+UICorner.Parent = ScriptFrame
+UICorner.Parent = SideFrame
+UICorner.Parent = AimBot
+UICorner.Parent = Close
+UICorner.Parent = CreditsButton
+UICorner.Parent = HomeButton
+UICorner.Parent = LocalPlayerButton
+UICorner.Parent = OPButton
+UICorner.Parent = AimBot_2
+UICorner.Parent = AimBot_3
+UICorner.Parent = AimBotOff
+UICorner.Parent = SpinBot
+UICorner.Parent = SpinBotOff
+UICorner.Parent = Credits
+UICorner.Parent = HomeText
+UICorner.Parent = LocalPlayerMods
+UICorner.Parent = JumpPower
+UICorner.Parent = JumpPowerOff
+UICorner.Parent = SpeedBoost
+UICorner.Parent = SpeedBoostOff
+UICorner.Parent = OpMods
+UICorner.Parent = killroblox
+UICorner.Parent = ScriptLogo
+UICorner.Parent = Spawnvehicle
+
+--Load SHIT: 
+
+Load.MouseButton1Click:Connect(function()
+	LoadFrame.Visible = false
+	LoadingFrame.Visible = true
+	wait(10)
+	LoadingFrame.Visible = false
+	ScriptFrame.Visible = true
+end)
+
+Close.MouseButton1Click:Connect(function()
+	ScriptFrame.Visible = false
+end)
+
+AimBot.MouseButton1Click:Connect(function()
+	AimBot_2.Visible = true
+	Credits.Visible = false
+	OpMods.Visible = false
+	HomeText.Visible = false
+	LocalPlayerMods.Visible = false
+end)
+
+CreditsButton.MouseButton1Click:Connect(function()
+	AimBot_2.Visible = false
+	Credits.Visible = true
+	OpMods.Visible = false
+	HomeText.Visible = false
+	LocalPlayerMods.Visible = false
+end)
+
+HomeButton.MouseButton1Click:Connect(function()
+	AimBot_2.Visible = false
+	Credits.Visible = false
+	OpMods.Visible = false
+	HomeText.Visible = true
+	LocalPlayerMods.Visible = false
+end)
+
+LocalPlayerButton.MouseButton1Click:Connect(function()
+	AimBot_2.Visible = false
+	Credits.Visible = false
+	OpMods.Visible = false
+	HomeText.Visible = false
+	LocalPlayerMods.Visible = true
+end)
+
+OPButton.MouseButton1Click:Connect(function()
+	AimBot_2.Visible = false
+	Credits.Visible = false
+	OpMods.Visible = true
+	HomeText.Visible = false
+	LocalPlayerMods.Visible = false
+end)
+
+--Mod Scripts
+
+SpeedBoost.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
+end)
+
+SpeedBoostOff.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+JumpPower.MouseButton1Click:Connect(function()
+	game.Player.LocalPlayer.Character.Humanoid.JumpPower = 500
+end)
+
+JumpPowerOff.MouseButton1Click:Connect(function()
+	game.Player.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+
+AimBot_3.MouseButton1Click:Connect(function()
+	local UserInputService = game:GetService("UserInputService")
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local Camera = workspace.CurrentCamera
+
+	local LocalPlayer = Players.LocalPlayer
+	local Mouse = LocalPlayer:GetMouse()
+
+	-- Configuration
+	local Config = {
+		Enabled = false,
+		Key = Enum.KeyCode.Q,
+		TeamCheck = true,
+		TargetPart = "Head", -- The part to aim at (Head, HumanoidRootPart, etc.)
+		FOV = 250, -- Field of view for initial target acquisition
+		Sensitivity = 0.5, -- Lower = smoother, Higher = faster
+		ShowFOV = true, -- Visual indicator of FOV
+		FOVColor = Color3.fromRGB(255, 255, 255),
+		LockOnTarget = nil -- Currently locked target
+	}
+
+	-- FOV Circle Drawing
+	local FOVCircle
+	if Config.ShowFOV and Drawing then
+		FOVCircle = Drawing.new("Circle")
+		FOVCircle.Visible = Config.Enabled
+		FOVCircle.Radius = Config.FOV
+		FOVCircle.Color = Config.FOVColor
+		FOVCircle.Thickness = 1
+		FOVCircle.Filled = false
+		FOVCircle.Transparency = 1
+	end
+
+	-- Toggle function
+	local function toggleAimbot()
+		Config.Enabled = not Config.Enabled
+		if FOVCircle then
+			FOVCircle.Visible = Config.Enabled
+		end
+
+		-- Reset locked target when disabling
+		if not Config.Enabled then
+			Config.LockOnTarget = nil
+		end
+
+		-- Notification
+		local message = Config.Enabled and "Aimbot: ON" or "Aimbot: OFF"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Aimbot",
+			Text = message,
+			Duration = 2
+		})
+	end
+
+	-- Check if player is on the same team
+	local function isTeamMate(player)
+		if not Config.TeamCheck then return false end
+
+		return player.Team == LocalPlayer.Team and player.Team ~= nil
+	end
+
+	-- Check if player is valid target
+	local function isValidTarget(player)
+		if player == LocalPlayer then return false end
+		if not player.Character then return false end
+		if not player.Character:FindFirstChild("Humanoid") then return false end
+		if player.Character.Humanoid.Health <= 0 then return false end
+		if isTeamMate(player) then return false end
+
+		return true
+	end
+
+	-- Get closest player within FOV for initial target acquisition
+	local function getClosestPlayerInFOV()
+		local closestPlayer = nil
+		local shortestDistance = Config.FOV
+
+		for _, player in pairs(Players:GetPlayers()) do
+			if isValidTarget(player) then
+				local targetPart = player.Character:FindFirstChild(Config.TargetPart)
+
+				if targetPart then
+					local screenPoint = Camera:WorldToScreenPoint(targetPart.Position)
+					local vectorDistance = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(screenPoint.X, screenPoint.Y)).Magnitude
+
+					if vectorDistance < shortestDistance then
+						closestPlayer = player
+						shortestDistance = vectorDistance
+					end
+				end
+			end
+		end
+
+		return closestPlayer
+	end
+
+	-- Update FOV circle position
+	if FOVCircle then
+		RunService.RenderStepped:Connect(function()
+			FOVCircle.Position = Vector2.new(Mouse.X, Mouse.Y + 36)
+		end)
+	end
+
+	-- Check if current locked target is still valid
+	local function isLockedTargetValid()
+		local target = Config.LockOnTarget
+
+		if not target then return false end
+		if not target.Parent then return false end -- Player left the game
+		if not isValidTarget(target) then return false end
+		if not target.Character:FindFirstChild(Config.TargetPart) then return false end
+
+		return true
+	end
+
+	-- Main aimbot loop
+	RunService.RenderStepped:Connect(function()
+		if Config.Enabled then
+			-- Check if we have a locked target and if it's still valid
+			if Config.LockOnTarget and isLockedTargetValid() then
+				local targetPart = Config.LockOnTarget.Character[Config.TargetPart]
+				local targetPosition = Camera:WorldToScreenPoint(targetPart.Position)
+
+				-- Only aim if target is on screen
+				if targetPosition.Z > 0 then
+					local mousePosition = Vector2.new(Mouse.X, Mouse.Y)
+					local aimPosition = Vector2.new(targetPosition.X, targetPosition.Y)
+
+					-- Calculate the movement needed
+					local movement = (aimPosition - mousePosition) * Config.Sensitivity
+
+					-- Move the mouse
+					mousemoverel(movement.X, movement.Y)
+				end
+			else
+				-- No valid locked target, acquire a new one
+				local newTarget = getClosestPlayerInFOV()
+				if newTarget then
+					Config.LockOnTarget = newTarget
+
+					-- Notification for new target
+					game.StarterGui:SetCore("SendNotification", {
+						Title = "Target Locked",
+						Text = "Locked onto " .. newTarget.Name,
+						Duration = 1.5
+					})
+				end
+			end
+		end
+	end)
+
+	-- Input handling for toggle
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if not gameProcessed and input.KeyCode == Config.Key then
+			toggleAimbot()
+
+			-- Reset locked target when toggling
+			Config.LockOnTarget = nil
+		end
+	end)
+
+	-- Player removal handling
+	Players.PlayerRemoving:Connect(function(player)
+		if Config.LockOnTarget == player then
+			Config.LockOnTarget = nil
+
+			if Config.Enabled then
+				game.StarterGui:SetCore("SendNotification", {
+					Title = "Target Lost",
+					Text = "Target left the game",
+					Duration = 1.5
+				})
+			end
+		end
+	end)
+
+	-- Initial notification
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Aimbot Loaded",
+		Text = "Press Q to toggle. Will lock onto targets.",
+		Duration = 3
+	})
+end)
+
+killroblox.MouseButton1Click:Connect(function()
+	while wait(0.6) do
+		game:GetService("NetworkClient"):SetOutgoingKBPSLimit(math.huge)
+		local function getmaxvalue(val)
+			local mainvalueifonetable = 499999
+			if type(val) ~= "number" then
+				return nil
+			end
+			local calculateperfectval = (mainvalueifonetable/(val+2))
+			return calculateperfectval
+		end
+
+		local function bomb(tableincrease, tries)
+			local maintable = {}
+			local spammedtable = {}
+
+			table.insert(spammedtable, {})
+			z = spammedtable[1]
+
+			for i = 1, tableincrease do
+				local tableins = {}
+				table.insert(z, tableins)
+				z = tableins
+			end
+
+			local calculatemax = getmaxvalue(tableincrease)
+			local maximum
+
+			if calculatemax then
+				maximum = calculatemax
+			else
+				maximum = 999999
+			end
+
+			for i = 1, maximum do
+				table.insert(maintable, spammedtable)
+			end
+
+			for i = 1, tries do
+				game.RobloxReplicatedStorage.SetPlayerBlockList:FireServer(maintable)
+			end
+		end
+
+		bomb(250, 2)
+	end
+end)
+
+SpinBot.MouseButton1Click:Connect(function()
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+	local radius = 0.1 -- Radius des Kreises
+	local speed = 10 -- Geschwindigkeit der Drehung (je höher, desto schneller)
+	local angle = 0
+
+	while true do
+		wait(0.03) -- kurze Pause für flüssige Bewegung
+		angle = angle + speed * 0.03 -- Winkel erhöhen
+		local x = math.cos(angle) * radius
+		local z = math.sin(angle) * radius
+		local newPosition = humanoidRootPart.Position + Vector3.new(x, 0, z)
+		humanoidRootPart.CFrame = CFrame.new(newPosition, humanoidRootPart.Position)
+	end
+end)
+
+SpinBotOff.MouseButton1Click:Connect(function()
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+	local radius = 0 -- Radius des Kreises
+	local speed = 10010200 -- Geschwindigkeit der Drehung (je höher, desto schneller)
+	local angle = 0
+
+	while true do
+		wait(0.03) -- kurze Pause für flüssige Bewegung
+		angle = angle + speed * 0.03 -- Winkel erhöhen
+		local x = math.cos(angle) * radius
+		local z = math.sin(angle) * radius
+		local newPosition = humanoidRootPart.Position + Vector3.new(x, 0, z)
+		humanoidRootPart.CFrame = CFrame.new(newPosition, humanoidRootPart.Position)
+	end
+end)
+
+Spawnvehicle.MouseButton1Click:Connect(function()
+	local button = script.Parent -- Annahme: Der Button ist das Parent-Objekt
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+	local auto = workspace:WaitForChild("asddcsdvdfgdsc") -- Ersetze "DeinAuto" durch den Namen deines Autos im Workspace
+
+	button.MouseButton1Click:Connect(function()
+		-- Teleportiere das Auto vor den Spieler
+		local newPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, -5) -- 5 Stud vor dem Spieler
+		auto:SetPrimaryPartCFrame(newPosition)
+	end)
+end)
