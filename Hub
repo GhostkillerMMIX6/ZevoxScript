@@ -1,84 +1,88 @@
-wait("0.2")
-local NotrufHamburgZevox = Instance.new("ScreenGui")
+local ZevoxHub = Instance.new("ScreenGui")
 local ScriptFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local SideFrame = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
-local ScriptLogo = Instance.new("TextLabel")
+local Name = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local HubName = Instance.new("TextLabel")
-local HomeButton = Instance.new("TextButton")
+local Home = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local LocalPlayerButton = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
-local OPButton = Instance.new("TextButton")
+local OpButton = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local AimBot = Instance.new("TextButton")
+local AimBotButton = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local CreditsButton = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local Close = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
 local HomeText = Instance.new("TextLabel")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local Status = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local Update = Instance.new("TextLabel")
+local HomeTitle = Instance.new("TextLabel")
 local LocalPlayerMods = Instance.new("TextLabel")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local SpeedBoost = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local SpeedBoostOff = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local JumpPower = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local JumpPowerOff = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local OPMods = Instance.new("TextLabel")
 local UICorner_15 = Instance.new("UICorner")
-local OpMods = Instance.new("TextLabel")
-local UICorner_16 = Instance.new("UICorner")
 local killroblox = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local Crasher = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local Crash = Instance.new("TextLabel")
+local SpawnVehicle = Instance.new("TextLabel")
 local Spawnvehicle = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextLabel")
 local UICorner_18 = Instance.new("UICorner")
-local Vehicle = Instance.new("TextLabel")
-local Credits = Instance.new("TextLabel")
-local UICorner_19 = Instance.new("UICorner")
-local AimBot_2 = Instance.new("TextLabel")
-local UICorner_20 = Instance.new("UICorner")
 local SpinBot = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local SpinBotOff = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local AimBot_3 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Credits = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local ESPButton = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local ESPMods = Instance.new("TextLabel")
 local UICorner_23 = Instance.new("UICorner")
-local AimBotOff = Instance.new("TextButton")
+local BoxESPMod = Instance.new("TextButton")
+local LogoScriptFrame = Instance.new("TextLabel")
 local UICorner_24 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local LoadFrame = Instance.new("Frame")
 local UICorner_25 = Instance.new("UICorner")
-local Load = Instance.new("TextButton")
+local LogoLoadFrame = Instance.new("TextLabel")
 local UICorner_26 = Instance.new("UICorner")
-local LoadLogo = Instance.new("TextLabel")
-local UICorner_27 = Instance.new("UICorner")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local LoadButton = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
 local LoadingFrame = Instance.new("Frame")
-local Loading = Instance.new("TextLabel")
 local UICorner_28 = Instance.new("UICorner")
-local LoadingLogo = Instance.new("TextLabel")
+local LOADING = Instance.new("TextLabel")
+local LogoLoadingFrame = Instance.new("TextLabel")
 local UICorner_29 = Instance.new("UICorner")
 local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 local uidrag = Instance.new("UIDragDetector")
 
 
-NotrufHamburgZevox.Name = "NotrufHamburgZevox"
-NotrufHamburgZevox.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-NotrufHamburgZevox.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ZevoxHub.Name = "ZevoxHub"
+ZevoxHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ZevoxHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ScriptFrame.Name = "ScriptFrame"
-ScriptFrame.Parent = NotrufHamburgZevox
+ScriptFrame.Parent = ZevoxHub
 ScriptFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScriptFrame.BorderSizePixel = 0
-ScriptFrame.Position = UDim2.new(0.015696533, 0, 0.42964825, 0)
-ScriptFrame.Size = UDim2.new(0, 656, 0, 419)
+ScriptFrame.Position = UDim2.new(0.024584718, 0, 0.42085427, 0)
+ScriptFrame.Size = UDim2.new(0, 614, 0, 426)
 ScriptFrame.Visible = false
 
 uidrag.Parent = ScriptFrame
@@ -87,122 +91,33 @@ UICorner.Parent = ScriptFrame
 
 SideFrame.Name = "SideFrame"
 SideFrame.Parent = ScriptFrame
-SideFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+SideFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 SideFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SideFrame.BorderSizePixel = 0
-SideFrame.Size = UDim2.new(0, 122, 0, 419)
+SideFrame.Size = UDim2.new(0, 108, 0, 426)
 
 UICorner_2.Parent = SideFrame
 
-ScriptLogo.Name = "ScriptLogo"
-ScriptLogo.Parent = ScriptFrame
-ScriptLogo.BackgroundColor3 = Color3.fromRGB(8, 127, 200)
-ScriptLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScriptLogo.BorderSizePixel = 0
-ScriptLogo.Position = UDim2.new(0.0152439028, 0, 0.0214797128, 0)
-ScriptLogo.Size = UDim2.new(0, 37, 0, 39)
-ScriptLogo.Font = Enum.Font.FredokaOne
-ScriptLogo.Text = "ZX"
-ScriptLogo.TextColor3 = Color3.fromRGB(0, 0, 0)
-ScriptLogo.TextScaled = true
-ScriptLogo.TextSize = 14.000
-ScriptLogo.TextWrapped = true
-
-UICorner_3.CornerRadius = UDim.new(0, 90)
-UICorner_3.Parent = ScriptLogo
-
-UIAspectRatioConstraint.Parent = ScriptLogo
-
-HubName.Name = "HubName"
-HubName.Parent = ScriptFrame
-HubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HubName.BackgroundTransparency = 1.000
-HubName.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HubName.BorderSizePixel = 0
-HubName.Position = UDim2.new(-0.0167682935, 0, 0.00477326987, 0)
-HubName.Size = UDim2.new(0, 200, 0, 50)
-HubName.Font = Enum.Font.SourceSans
-HubName.Text = "Zevox hub"
-HubName.TextColor3 = Color3.fromRGB(255, 255, 255)
-HubName.TextSize = 14.000
-
-HomeButton.Name = "HomeButton"
-HomeButton.Parent = ScriptFrame
-HomeButton.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
-HomeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HomeButton.BorderSizePixel = 0
-HomeButton.Position = UDim2.new(0.0304878056, 0, 0.190930784, 0)
-HomeButton.Size = UDim2.new(0, 82, 0, 24)
-HomeButton.Font = Enum.Font.SourceSans
-HomeButton.Text = "Home"
-HomeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-HomeButton.TextSize = 14.000
-
-UICorner_4.Parent = HomeButton
-
-LocalPlayerButton.Name = "LocalPlayerButton"
-LocalPlayerButton.Parent = ScriptFrame
-LocalPlayerButton.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
-LocalPlayerButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-LocalPlayerButton.BorderSizePixel = 0
-LocalPlayerButton.Position = UDim2.new(0.0304878056, 0, 0.300715983, 0)
-LocalPlayerButton.Size = UDim2.new(0, 82, 0, 24)
-LocalPlayerButton.Font = Enum.Font.SourceSans
-LocalPlayerButton.Text = "LocalPlayer"
-LocalPlayerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-LocalPlayerButton.TextSize = 14.000
-
-UICorner_5.Parent = LocalPlayerButton
-
-OPButton.Name = "OPButton"
-OPButton.Parent = ScriptFrame
-OPButton.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
-OPButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-OPButton.BorderSizePixel = 0
-OPButton.Position = UDim2.new(0.0304878056, 0, 0.412887841, 0)
-OPButton.Size = UDim2.new(0, 82, 0, 24)
-OPButton.Font = Enum.Font.SourceSans
-OPButton.Text = "OP"
-OPButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-OPButton.TextSize = 14.000
-
-UICorner_6.Parent = OPButton
-
-AimBot.Name = "AimBot"
-AimBot.Parent = ScriptFrame
-AimBot.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
-AimBot.BorderColor3 = Color3.fromRGB(0, 0, 0)
-AimBot.BorderSizePixel = 0
-AimBot.Position = UDim2.new(0.0304878056, 0, 0.522673011, 0)
-AimBot.Size = UDim2.new(0, 82, 0, 24)
-AimBot.Font = Enum.Font.SourceSans
-AimBot.Text = "AimBot"
-AimBot.TextColor3 = Color3.fromRGB(0, 0, 0)
-AimBot.TextSize = 14.000
-
-UICorner_7.Parent = AimBot
-
-CreditsButton.Name = "CreditsButton"
-CreditsButton.Parent = ScriptFrame
-CreditsButton.BackgroundColor3 = Color3.fromRGB(1, 90, 255)
-CreditsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CreditsButton.BorderSizePixel = 0
-CreditsButton.Position = UDim2.new(0.0304878056, 0, 0.627684951, 0)
-CreditsButton.Size = UDim2.new(0, 82, 0, 24)
-CreditsButton.Font = Enum.Font.SourceSans
-CreditsButton.Text = "Credits"
-CreditsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-CreditsButton.TextSize = 14.000
-
-UICorner_8.Parent = CreditsButton
+Name.Name = "Name"
+Name.Parent = ScriptFrame
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(-0.0390879475, 0, 0, 0)
+Name.Size = UDim2.new(0, 200, 0, 50)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "Zevox Hub"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextSize = 14.000
 
 Close.Name = "Close"
 Close.Parent = ScriptFrame
 Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Close.BorderSizePixel = 0
-Close.Position = UDim2.new(0.928353667, 0, 0, 0)
-Close.Size = UDim2.new(0, 47, 0, 50)
+Close.Position = UDim2.new(0.915309429, 0, 0, 0)
+Close.Size = UDim2.new(0, 52, 0, 50)
 Close.Font = Enum.Font.FredokaOne
 Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -210,383 +125,543 @@ Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
-UICorner_9.Parent = Close
+UICorner_3.Parent = Close
+
+Home.Name = "Home"
+Home.Parent = ScriptFrame
+Home.BackgroundColor3 = Color3.fromRGB(46, 67, 255)
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0162866451, 0, 0.183098584, 0)
+Home.Size = UDim2.new(0, 87, 0, 31)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextSize = 14.000
+
+UICorner_4.Parent = Home
+
+LocalPlayerButton.Name = "LocalPlayerButton"
+LocalPlayerButton.Parent = ScriptFrame
+LocalPlayerButton.BackgroundColor3 = Color3.fromRGB(46, 67, 255)
+LocalPlayerButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LocalPlayerButton.BorderSizePixel = 0
+LocalPlayerButton.Position = UDim2.new(0.0162866451, 0, 0.298122078, 0)
+LocalPlayerButton.Size = UDim2.new(0, 87, 0, 31)
+LocalPlayerButton.Font = Enum.Font.SourceSans
+LocalPlayerButton.Text = "LocalPlayer"
+LocalPlayerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+LocalPlayerButton.TextSize = 14.000
+
+UICorner_5.Parent = LocalPlayerButton
+
+OpButton.Name = "OpButton"
+OpButton.Parent = ScriptFrame
+OpButton.BackgroundColor3 = Color3.fromRGB(46, 67, 255)
+OpButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpButton.BorderSizePixel = 0
+OpButton.Position = UDim2.new(0.0162866451, 0, 0.420187801, 0)
+OpButton.Size = UDim2.new(0, 87, 0, 31)
+OpButton.Font = Enum.Font.SourceSans
+OpButton.Text = "OP"
+OpButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpButton.TextSize = 14.000
+
+UICorner_6.Parent = OpButton
+
+AimBotButton.Name = "AimBotButton"
+AimBotButton.Parent = ScriptFrame
+AimBotButton.BackgroundColor3 = Color3.fromRGB(46, 67, 255)
+AimBotButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimBotButton.BorderSizePixel = 0
+AimBotButton.Position = UDim2.new(0.0162866451, 0, 0.539906085, 0)
+AimBotButton.Size = UDim2.new(0, 87, 0, 31)
+AimBotButton.Font = Enum.Font.SourceSans
+AimBotButton.Text = "AimBot"
+AimBotButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimBotButton.TextSize = 14.000
+
+UICorner_7.Parent = AimBotButton
+
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = ScriptFrame
+CreditsButton.BackgroundColor3 = Color3.fromRGB(46, 67, 255)
+CreditsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreditsButton.BorderSizePixel = 0
+CreditsButton.Position = UDim2.new(0.0162866451, 0, 0.791079819, 0)
+CreditsButton.Size = UDim2.new(0, 87, 0, 31)
+CreditsButton.Font = Enum.Font.SourceSans
+CreditsButton.Text = "Credits"
+CreditsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreditsButton.TextSize = 14.000
+
+UICorner_8.Parent = CreditsButton
 
 HomeText.Name = "HomeText"
 HomeText.Parent = ScriptFrame
 HomeText.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 HomeText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HomeText.BorderSizePixel = 0
-HomeText.Position = UDim2.new(0.222560972, 0, 0.11933174, 0)
-HomeText.Size = UDim2.new(0, 463, 0, 326)
+HomeText.Position = UDim2.new(0.218241036, 0, 0.133802816, 0)
+HomeText.Size = UDim2.new(0, 419, 0, 311)
 HomeText.Font = Enum.Font.SourceSans
-HomeText.Text = "Choose one of the blue options"
-HomeText.TextColor3 = Color3.fromRGB(0, 0, 0)
-HomeText.TextScaled = true
+HomeText.Text = ""
+HomeText.TextColor3 = Color3.fromRGB(255, 255, 255)
 HomeText.TextSize = 14.000
-HomeText.TextWrapped = true
 
-UICorner_10.Parent = HomeText
+UICorner_9.Parent = HomeText
+
+Status.Name = "Status"
+Status.Parent = HomeText
+Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Status.BackgroundTransparency = 1.000
+Status.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Status.BorderSizePixel = 0
+Status.Position = UDim2.new(0.226730317, 0, 0.360128611, 0)
+Status.Size = UDim2.new(0, 200, 0, 50)
+Status.Font = Enum.Font.SourceSans
+Status.Text = "Status: Working"
+Status.TextColor3 = Color3.fromRGB(255, 255, 255)
+Status.TextSize = 14.000
+
+Version.Name = "Version"
+Version.Parent = HomeText
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Version.BorderSizePixel = 0
+Version.Position = UDim2.new(0.591885448, 0, 0.839228272, 0)
+Version.Size = UDim2.new(0, 200, 0, 50)
+Version.Font = Enum.Font.SourceSans
+Version.Text = "Your in Version: BETA"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 14.000
+
+Update.Name = "Update"
+Update.Parent = HomeText
+Update.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Update.BackgroundTransparency = 1.000
+Update.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Update.BorderSizePixel = 0
+Update.Position = UDim2.new(-0.0477326959, 0, 0.819935679, 0)
+Update.Size = UDim2.new(0, 200, 0, 50)
+Update.Font = Enum.Font.SourceSans
+Update.Text = "Last Update: Today"
+Update.TextColor3 = Color3.fromRGB(255, 255, 255)
+Update.TextSize = 14.000
+
+HomeTitle.Name = "HomeTitle"
+HomeTitle.Parent = HomeText
+HomeTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeTitle.BackgroundTransparency = 1.000
+HomeTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeTitle.BorderSizePixel = 0
+HomeTitle.Position = UDim2.new(0.260143191, 0, 0.0353697762, 0)
+HomeTitle.Size = UDim2.new(0, 200, 0, 50)
+HomeTitle.Font = Enum.Font.SourceSans
+HomeTitle.Text = "Zevox Hub"
+HomeTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomeTitle.TextScaled = true
+HomeTitle.TextSize = 14.000
+HomeTitle.TextWrapped = true
 
 LocalPlayerMods.Name = "LocalPlayerMods"
 LocalPlayerMods.Parent = ScriptFrame
 LocalPlayerMods.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 LocalPlayerMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
 LocalPlayerMods.BorderSizePixel = 0
-LocalPlayerMods.Position = UDim2.new(0.222560972, 0, 0.124105014, 0)
-LocalPlayerMods.Size = UDim2.new(0, 463, 0, 324)
+LocalPlayerMods.Position = UDim2.new(0.218241036, 0, 0.138497651, 0)
+LocalPlayerMods.Size = UDim2.new(0, 419, 0, 309)
 LocalPlayerMods.Visible = false
 LocalPlayerMods.Font = Enum.Font.SourceSans
 LocalPlayerMods.Text = ""
 LocalPlayerMods.TextColor3 = Color3.fromRGB(0, 0, 0)
 LocalPlayerMods.TextSize = 14.000
 
-UICorner_11.Parent = LocalPlayerMods
+UICorner_10.Parent = LocalPlayerMods
 
 SpeedBoost.Name = "SpeedBoost"
 SpeedBoost.Parent = LocalPlayerMods
-SpeedBoost.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+SpeedBoost.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 SpeedBoost.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SpeedBoost.BorderSizePixel = 0
-SpeedBoost.Position = UDim2.new(0.0561555065, 0, 0.0740740746, 0)
+SpeedBoost.Position = UDim2.new(0.0525059663, 0, 0.122977346, 0)
 SpeedBoost.Size = UDim2.new(0, 200, 0, 50)
 SpeedBoost.Font = Enum.Font.SourceSans
-SpeedBoost.Text = "SpeedBoost"
+SpeedBoost.Text = "Dash"
 SpeedBoost.TextColor3 = Color3.fromRGB(0, 0, 0)
 SpeedBoost.TextSize = 14.000
 
-UICorner_12.Parent = SpeedBoost
+UICorner_11.Parent = SpeedBoost
 
 SpeedBoostOff.Name = "SpeedBoostOff"
 SpeedBoostOff.Parent = LocalPlayerMods
-SpeedBoostOff.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+SpeedBoostOff.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 SpeedBoostOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SpeedBoostOff.BorderSizePixel = 0
-SpeedBoostOff.Position = UDim2.new(0.669546425, 0, 0.0740740746, 0)
-SpeedBoostOff.Size = UDim2.new(0, 127, 0, 50)
+SpeedBoostOff.Position = UDim2.new(0.627684951, 0, 0.122977346, 0)
+SpeedBoostOff.Size = UDim2.new(0, 138, 0, 50)
 SpeedBoostOff.Font = Enum.Font.SourceSans
 SpeedBoostOff.Text = "Off"
 SpeedBoostOff.TextColor3 = Color3.fromRGB(0, 0, 0)
 SpeedBoostOff.TextSize = 14.000
 
-UICorner_13.Parent = SpeedBoostOff
+UICorner_12.Parent = SpeedBoostOff
 
 JumpPower.Name = "JumpPower"
 JumpPower.Parent = LocalPlayerMods
-JumpPower.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+JumpPower.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 JumpPower.BorderColor3 = Color3.fromRGB(0, 0, 0)
 JumpPower.BorderSizePixel = 0
-JumpPower.Position = UDim2.new(0.0561555065, 0, 0.333333343, 0)
+JumpPower.Position = UDim2.new(0.0525059663, 0, 0.388349503, 0)
 JumpPower.Size = UDim2.new(0, 200, 0, 50)
 JumpPower.Font = Enum.Font.SourceSans
-JumpPower.Text = "JumpPower"
+JumpPower.Text = "JumpPower(NW)"
 JumpPower.TextColor3 = Color3.fromRGB(0, 0, 0)
 JumpPower.TextSize = 14.000
 
-UICorner_14.Parent = JumpPower
+UICorner_13.Parent = JumpPower
 
-JumpPowerOff.Name = "JumpPowerOff"
+JumpPowerOff.Name = "JumpPowerOff(NW)"
 JumpPowerOff.Parent = LocalPlayerMods
-JumpPowerOff.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+JumpPowerOff.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 JumpPowerOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
 JumpPowerOff.BorderSizePixel = 0
-JumpPowerOff.Position = UDim2.new(0.669546425, 0, 0.333333343, 0)
-JumpPowerOff.Size = UDim2.new(0, 127, 0, 50)
+JumpPowerOff.Position = UDim2.new(0.627684951, 0, 0.391585767, 0)
+JumpPowerOff.Size = UDim2.new(0, 138, 0, 50)
 JumpPowerOff.Font = Enum.Font.SourceSans
 JumpPowerOff.Text = "Off"
 JumpPowerOff.TextColor3 = Color3.fromRGB(0, 0, 0)
 JumpPowerOff.TextSize = 14.000
 
-UICorner_15.Parent = JumpPowerOff
+UICorner_14.Parent = JumpPowerOff
 
-OpMods.Name = "OpMods"
-OpMods.Parent = ScriptFrame
-OpMods.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-OpMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
-OpMods.BorderSizePixel = 0
-OpMods.Position = UDim2.new(0.222560972, 0, 0.11933174, 0)
-OpMods.Size = UDim2.new(0, 463, 0, 326)
-OpMods.Visible = false
-OpMods.Font = Enum.Font.SourceSans
-OpMods.Text = ""
-OpMods.TextColor3 = Color3.fromRGB(0, 0, 0)
-OpMods.TextSize = 14.000
+OPMods.Name = "OPMods"
+OPMods.Parent = ScriptFrame
+OPMods.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+OPMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OPMods.BorderSizePixel = 0
+OPMods.Position = UDim2.new(0.218241036, 0, 0.138497651, 0)
+OPMods.Size = UDim2.new(0, 419, 0, 309)
+OPMods.Visible = false
+OPMods.Font = Enum.Font.SourceSans
+OPMods.Text = ""
+OPMods.TextColor3 = Color3.fromRGB(0, 0, 0)
+OPMods.TextSize = 14.000
 
-UICorner_16.Parent = OpMods
+UICorner_15.Parent = OPMods
 
-killroblox.Name = "kill roblox"
-killroblox.Parent = OpMods
-killroblox.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+killroblox.Name = "killroblox"
+killroblox.Parent = OPMods
+killroblox.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 killroblox.BorderColor3 = Color3.fromRGB(0, 0, 0)
 killroblox.BorderSizePixel = 0
-killroblox.Position = UDim2.new(0.282937378, 0, 0.297545999, 0)
+killroblox.Position = UDim2.new(0.260143191, 0, 0.187702268, 0)
 killroblox.Size = UDim2.new(0, 200, 0, 50)
 killroblox.Font = Enum.Font.SourceSans
-killroblox.Text = "kill roblox"
+killroblox.Text = "KillRoblox"
 killroblox.TextColor3 = Color3.fromRGB(0, 0, 0)
 killroblox.TextSize = 14.000
 
-UICorner_17.Parent = killroblox
+UICorner_16.Parent = killroblox
 
-Crasher.Name = "Crasher"
-Crasher.Parent = OpMods
-Crasher.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Crasher.BackgroundTransparency = 1.000
-Crasher.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Crasher.BorderSizePixel = 0
-Crasher.Position = UDim2.new(0.263498932, 0, 0.144171774, 0)
-Crasher.Size = UDim2.new(0, 200, 0, 50)
-Crasher.Font = Enum.Font.SourceSans
-Crasher.Text = "crasher"
-Crasher.TextColor3 = Color3.fromRGB(255, 255, 255)
-Crasher.TextScaled = true
-Crasher.TextSize = 14.000
-Crasher.TextWrapped = true
+Crash.Name = "Crash"
+Crash.Parent = OPMods
+Crash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Crash.BackgroundTransparency = 1.000
+Crash.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Crash.BorderSizePixel = 0
+Crash.Position = UDim2.new(0.260143191, 0, 0, 0)
+Crash.Size = UDim2.new(0, 200, 0, 50)
+Crash.Font = Enum.Font.SourceSans
+Crash.Text = "Crash"
+Crash.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crash.TextScaled = true
+Crash.TextSize = 14.000
+Crash.TextWrapped = true
 
-Spawnvehicle.Name = "Spawn vehicle"
-Spawnvehicle.Parent = OpMods
-Spawnvehicle.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+SpawnVehicle.Name = "Spawn Vehicle"
+SpawnVehicle.Parent = OPMods
+SpawnVehicle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpawnVehicle.BackgroundTransparency = 1.000
+SpawnVehicle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpawnVehicle.BorderSizePixel = 0
+SpawnVehicle.Position = UDim2.new(0.260143191, 0, 0.414239496, 0)
+SpawnVehicle.Size = UDim2.new(0, 200, 0, 50)
+SpawnVehicle.Font = Enum.Font.SourceSans
+SpawnVehicle.Text = "Spawn Vehicle"
+SpawnVehicle.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpawnVehicle.TextScaled = true
+SpawnVehicle.TextSize = 14.000
+SpawnVehicle.TextWrapped = true
+
+Spawnvehicle.Name = "Spawnvehicle"
+Spawnvehicle.Parent = OPMods
+Spawnvehicle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Spawnvehicle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Spawnvehicle.BorderSizePixel = 0
-Spawnvehicle.Position = UDim2.new(0.282937378, 0, 0.726993859, 0)
+Spawnvehicle.Position = UDim2.new(0.260143191, 0, 0.65372169, 0)
 Spawnvehicle.Size = UDim2.new(0, 200, 0, 50)
 Spawnvehicle.Font = Enum.Font.SourceSans
-Spawnvehicle.Text = "vehicle"
+Spawnvehicle.Text = "Bring Car"
 Spawnvehicle.TextColor3 = Color3.fromRGB(0, 0, 0)
 Spawnvehicle.TextSize = 14.000
 
-UICorner_18.Parent = Spawnvehicle
+UICorner_17.Parent = Spawnvehicle
 
-Vehicle.Name = "Vehicle"
-Vehicle.Parent = OpMods
-Vehicle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Vehicle.BackgroundTransparency = 1.000
-Vehicle.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Vehicle.BorderSizePixel = 0
-Vehicle.Position = UDim2.new(0.282937378, 0, 0.536809802, 0)
-Vehicle.Size = UDim2.new(0, 200, 0, 50)
-Vehicle.Font = Enum.Font.SourceSans
-Vehicle.Text = "vehicle"
-Vehicle.TextColor3 = Color3.fromRGB(255, 255, 255)
-Vehicle.TextScaled = true
-Vehicle.TextSize = 14.000
-Vehicle.TextWrapped = true
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = ScriptFrame
+Aimbot.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Aimbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.218241036, 0, 0.138497651, 0)
+Aimbot.Size = UDim2.new(0, 419, 0, 303)
+Aimbot.Visible = false
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = ""
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextSize = 14.000
+
+UICorner_18.Parent = Aimbot
+
+SpinBot.Name = "SpinBot"
+SpinBot.Parent = Aimbot
+SpinBot.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+SpinBot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpinBot.BorderSizePixel = 0
+SpinBot.Position = UDim2.new(0.0596658699, 0, 0.0957095698, 0)
+SpinBot.Size = UDim2.new(0, 179, 0, 46)
+SpinBot.Font = Enum.Font.SourceSans
+SpinBot.Text = "SpinBot"
+SpinBot.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpinBot.TextSize = 14.000
+
+UICorner_19.Parent = SpinBot
+
+AimBot_3.Name = "AimBot_3"
+AimBot_3.Parent = Aimbot
+AimBot_3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+AimBot_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimBot_3.BorderSizePixel = 0
+AimBot_3.Position = UDim2.new(0.534606218, 0, 0.0957095698, 0)
+AimBot_3.Size = UDim2.new(0, 179, 0, 46)
+AimBot_3.Font = Enum.Font.SourceSans
+AimBot_3.Text = "AimBot"
+AimBot_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimBot_3.TextSize = 14.000
+
+UICorner_20.Parent = AimBot_3
 
 Credits.Name = "Credits"
 Credits.Parent = ScriptFrame
 Credits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Credits.BorderSizePixel = 0
-Credits.Position = UDim2.new(0.222560972, 0, 0.124105014, 0)
-Credits.Size = UDim2.new(0, 463, 0, 324)
-Credits.Visible = false
+Credits.Position = UDim2.new(0.218241036, 0, 0.138497651, 0)
+Credits.Size = UDim2.new(0, 419, 0, 309)
 Credits.Font = Enum.Font.SourceSans
-Credits.Text = "fully made by zevox"
+Credits.Text = "EVERYTHING IS MADE BY GHOSTKILLER"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextScaled = true
 Credits.TextSize = 14.000
 Credits.TextWrapped = true
 
-UICorner_19.Parent = Credits
+UICorner_21.Parent = Credits
 
-AimBot_2.Name = "AimBot"
-AimBot_2.Parent = ScriptFrame
-AimBot_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-AimBot_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-AimBot_2.BorderSizePixel = 0
-AimBot_2.Position = UDim2.new(0.222560972, 0, 0.11933174, 0)
-AimBot_2.Size = UDim2.new(0, 463, 0, 326)
-AimBot_2.Visible = false
-AimBot_2.Font = Enum.Font.SourceSans
-AimBot_2.Text = ""
-AimBot_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-AimBot_2.TextSize = 14.000
+ESPButton.Name = "ESPButton"
+ESPButton.Parent = ScriptFrame
+ESPButton.BackgroundColor3 = Color3.fromRGB(46, 67, 255)
+ESPButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPButton.BorderSizePixel = 0
+ESPButton.Position = UDim2.new(0.0162866451, 0, 0.659624398, 0)
+ESPButton.Size = UDim2.new(0, 87, 0, 31)
+ESPButton.Font = Enum.Font.SourceSans
+ESPButton.Text = "ESP"
+ESPButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPButton.TextSize = 14.000
 
-UICorner_20.Parent = AimBot_2
+UICorner_22.Parent = ESPButton
 
-SpinBot.Name = "SpinBot"
-SpinBot.Parent = AimBot_2
-SpinBot.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
-SpinBot.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SpinBot.BorderSizePixel = 0
-SpinBot.Position = UDim2.new(0.0539956801, 0, 0.128834352, 0)
-SpinBot.Size = UDim2.new(0, 200, 0, 50)
-SpinBot.Font = Enum.Font.SourceSans
-SpinBot.Text = "SpinBot"
-SpinBot.TextColor3 = Color3.fromRGB(0, 0, 0)
-SpinBot.TextSize = 14.000
+ESPMods.Name = "ESPMods"
+ESPMods.Parent = ScriptFrame
+ESPMods.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ESPMods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPMods.BorderSizePixel = 0
+ESPMods.Position = UDim2.new(0.218241036, 0, 0.138497651, 0)
+ESPMods.Size = UDim2.new(0, 419, 0, 309)
+ESPMods.Visible = false
+ESPMods.Font = Enum.Font.SourceSans
+ESPMods.Text = ""
+ESPMods.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPMods.TextSize = 14.000
 
-UICorner_21.Parent = SpinBot
+UICorner_23.Parent = ESPMods
 
-SpinBotOff.Name = "SpinBotOff"
-SpinBotOff.Parent = AimBot_2
-SpinBotOff.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
-SpinBotOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SpinBotOff.BorderSizePixel = 0
-SpinBotOff.Position = UDim2.new(0.622030258, 0, 0.128834352, 0)
-SpinBotOff.Size = UDim2.new(0, 146, 0, 50)
-SpinBotOff.Font = Enum.Font.SourceSans
-SpinBotOff.Text = "Off"
-SpinBotOff.TextColor3 = Color3.fromRGB(0, 0, 0)
-SpinBotOff.TextSize = 14.000
+BoxESPMod.Name = "BoxESPMod"
+BoxESPMod.Parent = ESPMods
+BoxESPMod.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+BoxESPMod.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BoxESPMod.BorderSizePixel = 0
+BoxESPMod.Position = UDim2.new(0.226730317, 0, 0.158576056, 0)
+BoxESPMod.Size = UDim2.new(0, 200, 0, 50)
+BoxESPMod.Font = Enum.Font.SourceSans
+BoxESPMod.Text = "BoxESP"
+BoxESPMod.TextColor3 = Color3.fromRGB(0, 0, 0)
+BoxESPMod.TextSize = 14.000
 
-UICorner_22.Parent = SpinBotOff
+LogoScriptFrame.Name = "LogoScriptFrame"
+LogoScriptFrame.Parent = ScriptFrame
+LogoScriptFrame.BackgroundColor3 = Color3.fromRGB(49, 142, 255)
+LogoScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LogoScriptFrame.BorderSizePixel = 0
+LogoScriptFrame.Position = UDim2.new(0.014942592, 0, 0.0165027026, 0)
+LogoScriptFrame.Size = UDim2.new(0, 44, 0, 34)
+LogoScriptFrame.Font = Enum.Font.FredokaOne
+LogoScriptFrame.Text = "ZX"
+LogoScriptFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+LogoScriptFrame.TextScaled = true
+LogoScriptFrame.TextSize = 14.000
+LogoScriptFrame.TextWrapped = true
 
-AimBot_3.Name = "AimBot"
-AimBot_3.Parent = AimBot_2
-AimBot_3.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
-AimBot_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-AimBot_3.BorderSizePixel = 0
-AimBot_3.Position = UDim2.new(0.0539956801, 0, 0.37730062, 0)
-AimBot_3.Size = UDim2.new(0, 200, 0, 50)
-AimBot_3.Font = Enum.Font.SourceSans
-AimBot_3.Text = "AimBot"
-AimBot_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-AimBot_3.TextSize = 14.000
+UICorner_24.CornerRadius = UDim.new(0, 90)
+UICorner_24.Parent = LogoScriptFrame
 
-UICorner_23.Parent = AimBot_3
-
-AimBotOff.Name = "AimBotOff"
-AimBotOff.Parent = AimBot_2
-AimBotOff.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
-AimBotOff.BorderColor3 = Color3.fromRGB(0, 0, 0)
-AimBotOff.BorderSizePixel = 0
-AimBotOff.Position = UDim2.new(0.622030258, 0, 0.37730062, 0)
-AimBotOff.Size = UDim2.new(0, 146, 0, 50)
-AimBotOff.Font = Enum.Font.SourceSans
-AimBotOff.Text = "Off"
-AimBotOff.TextColor3 = Color3.fromRGB(0, 0, 0)
-AimBotOff.TextSize = 14.000
-
-UICorner_24.Parent = AimBotOff
+UIAspectRatioConstraint.Parent = LogoScriptFrame
 
 LoadFrame.Name = "LoadFrame"
-LoadFrame.Parent = NotrufHamburgZevox
+LoadFrame.Parent = ZevoxHub
 LoadFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 LoadFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 LoadFrame.BorderSizePixel = 0
-LoadFrame.Position = UDim2.new(0.285153687, 0, 0.236180902, 0)
-LoadFrame.Size = UDim2.new(0, 656, 0, 419)
+LoadFrame.Position = UDim2.new(0.346843868, 0, 0.232412055, 0)
+LoadFrame.Size = UDim2.new(0, 614, 0, 426)
 
 UICorner_25.Parent = LoadFrame
 
-Load.Name = "Load"
-Load.Parent = LoadFrame
-Load.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Load.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Load.BorderSizePixel = 0
-Load.Position = UDim2.new(0.217987806, 0, 0.329355597, 0)
-Load.Size = UDim2.new(0, 370, 0, 142)
-Load.Font = Enum.Font.SourceSans
-Load.Text = "Load"
-Load.TextColor3 = Color3.fromRGB(0, 0, 0)
-Load.TextScaled = true
-Load.TextSize = 14.000
-Load.TextWrapped = true
+LogoLoadFrame.Name = "LogoLoadFrame"
+LogoLoadFrame.Parent = LoadFrame
+LogoLoadFrame.BackgroundColor3 = Color3.fromRGB(49, 142, 255)
+LogoLoadFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LogoLoadFrame.BorderSizePixel = 0
+LogoLoadFrame.Position = UDim2.new(0.014942592, 0, 0.0165027026, 0)
+LogoLoadFrame.Size = UDim2.new(0, 44, 0, 34)
+LogoLoadFrame.Font = Enum.Font.FredokaOne
+LogoLoadFrame.Text = "ZX"
+LogoLoadFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+LogoLoadFrame.TextScaled = true
+LogoLoadFrame.TextSize = 14.000
+LogoLoadFrame.TextWrapped = true
 
-UICorner_26.Parent = Load
+UICorner_26.CornerRadius = UDim.new(0, 90)
+UICorner_26.Parent = LogoLoadFrame
 
-LoadLogo.Name = "LoadLogo"
-LoadLogo.Parent = LoadFrame
-LoadLogo.BackgroundColor3 = Color3.fromRGB(8, 127, 200)
-LoadLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
-LoadLogo.BorderSizePixel = 0
-LoadLogo.Position = UDim2.new(0.0152439028, 0, 0.0214797128, 0)
-LoadLogo.Size = UDim2.new(0, 37, 0, 39)
-LoadLogo.Font = Enum.Font.FredokaOne
-LoadLogo.Text = "ZX"
-LoadLogo.TextColor3 = Color3.fromRGB(0, 0, 0)
-LoadLogo.TextScaled = true
-LoadLogo.TextSize = 14.000
-LoadLogo.TextWrapped = true
+UIAspectRatioConstraint_2.Parent = LogoLoadFrame
 
-UICorner_27.CornerRadius = UDim.new(0, 90)
-UICorner_27.Parent = LoadLogo
+LoadButton.Name = "LoadButton"
+LoadButton.Parent = LoadFrame
+LoadButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+LoadButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoadButton.BorderSizePixel = 0
+LoadButton.Position = UDim2.new(0.164495111, 0, 0.309859157, 0)
+LoadButton.Size = UDim2.new(0, 412, 0, 213)
+LoadButton.Font = Enum.Font.SourceSans
+LoadButton.Text = "LOAD"
+LoadButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadButton.TextScaled = true
+LoadButton.TextSize = 14.000
+LoadButton.TextWrapped = true
 
-UIAspectRatioConstraint_2.Parent = LoadLogo
+UICorner_27.Parent = LoadButton
 
 LoadingFrame.Name = "LoadingFrame"
-LoadingFrame.Parent = NotrufHamburgZevox
+LoadingFrame.Parent = ZevoxHub
 LoadingFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 LoadingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 LoadingFrame.BorderSizePixel = 0
-LoadingFrame.Position = UDim2.new(0.284999996, 0, 0.236000001, 0)
-LoadingFrame.Size = UDim2.new(0, 656, 0, 419)
+LoadingFrame.Position = UDim2.new(0.346843868, 0, 0.232412055, 0)
+LoadingFrame.Size = UDim2.new(0, 614, 0, 426)
 LoadingFrame.Visible = false
-
-Loading.Name = "Loading"
-Loading.Parent = LoadingFrame
-Loading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Loading.BackgroundTransparency = 1.000
-Loading.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Loading.BorderSizePixel = 0
-Loading.Size = UDim2.new(0, 656, 0, 419)
-Loading.Font = Enum.Font.SourceSans
-Loading.Text = "Loading"
-Loading.TextColor3 = Color3.fromRGB(0, 0, 0)
-Loading.TextScaled = true
-Loading.TextSize = 14.000
-Loading.TextWrapped = true
 
 UICorner_28.Parent = LoadingFrame
 
-LoadingLogo.Name = "LoadingLogo"
-LoadingLogo.Parent = LoadingFrame
-LoadingLogo.BackgroundColor3 = Color3.fromRGB(8, 127, 200)
-LoadingLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
-LoadingLogo.BorderSizePixel = 0
-LoadingLogo.Position = UDim2.new(0.0152439028, 0, 0.0214797128, 0)
-LoadingLogo.Size = UDim2.new(0, 37, 0, 39)
-LoadingLogo.Font = Enum.Font.FredokaOne
-LoadingLogo.Text = "ZX"
-LoadingLogo.TextColor3 = Color3.fromRGB(0, 0, 0)
-LoadingLogo.TextScaled = true
-LoadingLogo.TextSize = 14.000
-LoadingLogo.TextWrapped = true
+LOADING.Name = "LOADING"
+LOADING.Parent = LoadingFrame
+LOADING.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LOADING.BackgroundTransparency = 1.000
+LOADING.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LOADING.BorderSizePixel = 0
+LOADING.Position = UDim2.new(0, 0, -3.58187542e-08, 0)
+LOADING.Size = UDim2.new(0, 614, 0, 426)
+LOADING.Font = Enum.Font.SourceSans
+LOADING.Text = "LOADING"
+LOADING.TextColor3 = Color3.fromRGB(255, 255, 255)
+LOADING.TextScaled = true
+LOADING.TextSize = 14.000
+LOADING.TextWrapped = true
+
+LogoLoadingFrame.Name = "LogoLoadingFrame"
+LogoLoadingFrame.Parent = LoadingFrame
+LogoLoadingFrame.BackgroundColor3 = Color3.fromRGB(49, 142, 255)
+LogoLoadingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LogoLoadingFrame.BorderSizePixel = 0
+LogoLoadingFrame.Position = UDim2.new(0.014942592, 0, 0.0165027026, 0)
+LogoLoadingFrame.Size = UDim2.new(0, 44, 0, 34)
+LogoLoadingFrame.Font = Enum.Font.FredokaOne
+LogoLoadingFrame.Text = "ZX"
+LogoLoadingFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+LogoLoadingFrame.TextScaled = true
+LogoLoadingFrame.TextSize = 14.000
+LogoLoadingFrame.TextWrapped = true
 
 UICorner_29.CornerRadius = UDim.new(0, 90)
-UICorner_29.Parent = LoadingLogo
+UICorner_29.Parent = LogoLoadingFrame
 
-UIAspectRatioConstraint_3.Parent = LoadingLogo
+UIAspectRatioConstraint_3.Parent = LogoLoadingFrame
 
---UICorner SHIT:
+--UICorner:
 
-UICorner.Parent = LoadFrame
-UICorner.Parent = Load
-UICorner.Parent = LoadLogo
 UICorner.Parent = LoadingFrame
-UICorner.Parent = LoadingLogo
+UICorner.Parent = LogoLoadingFrame
+UICorner.Parent = LoadFrame
+UICorner.Parent = LoadButton
+UICorner.Parent = LogoLoadFrame
 UICorner.Parent = ScriptFrame
 UICorner.Parent = SideFrame
-UICorner.Parent = AimBot
+UICorner.Parent = AimBotButton
 UICorner.Parent = Close
 UICorner.Parent = CreditsButton
-UICorner.Parent = HomeButton
+UICorner.Parent = Home
 UICorner.Parent = LocalPlayerButton
-UICorner.Parent = OPButton
-UICorner.Parent = AimBot_2
-UICorner.Parent = AimBot_3
-UICorner.Parent = AimBotOff
-UICorner.Parent = SpinBot
-UICorner.Parent = SpinBotOff
-UICorner.Parent = Credits
+UICorner.Parent = OpButton
+UICorner.Parent = ESPButton
 UICorner.Parent = HomeText
 UICorner.Parent = LocalPlayerMods
-UICorner.Parent = JumpPower
 UICorner.Parent = JumpPowerOff
+UICorner.Parent = JumpPower
 UICorner.Parent = SpeedBoost
 UICorner.Parent = SpeedBoostOff
-UICorner.Parent = OpMods
-UICorner.Parent = killroblox
-UICorner.Parent = ScriptLogo
+UICorner.Parent = LogoScriptFrame
+UICorner.Parent = OPMods
 UICorner.Parent = Spawnvehicle
+UICorner.Parent = killroblox
+UICorner.Parent = Aimbot
+UICorner.Parent = SpinBot
+UICorner.Parent = AimBot_3
+UICorner.Parent = Credits
+UICorner.Parent = ESPMods
+UICorner.Parent = BoxESPMod
 
---Load SHIT: 
+--Load Scripts
 
-Load.MouseButton1Click:Connect(function()
+LoadButton.MouseButton1Click:Connect(function()
 	LoadFrame.Visible = false
 	LoadingFrame.Visible = true
 	wait(10)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Thanks for executing",
+		Text = "This is the best emergency hamburg script",
+		Duration = 7
+	})
 	LoadingFrame.Visible = false
 	ScriptFrame.Visible = true
 end)
@@ -595,61 +670,183 @@ Close.MouseButton1Click:Connect(function()
 	ScriptFrame.Visible = false
 end)
 
-AimBot.MouseButton1Click:Connect(function()
-	AimBot_2.Visible = true
-	Credits.Visible = false
-	OpMods.Visible = false
+AimBotButton.MouseButton1Click:Connect(function()
+	Aimbot.Visible = true
 	HomeText.Visible = false
 	LocalPlayerMods.Visible = false
+	OPMods.Visible = false
+	Credits.Visible = false
+	ESPMods.Visible = false
 end)
 
 CreditsButton.MouseButton1Click:Connect(function()
-	AimBot_2.Visible = false
-	Credits.Visible = true
-	OpMods.Visible = false
+	Aimbot.Visible = false
 	HomeText.Visible = false
 	LocalPlayerMods.Visible = false
+	OPMods.Visible = false
+	Credits.Visible = true
+	ESPMods.Visible = false
 end)
 
-HomeButton.MouseButton1Click:Connect(function()
-	AimBot_2.Visible = false
-	Credits.Visible = false
-	OpMods.Visible = false
+Home.MouseButton1Click:Connect(function()
+	Aimbot.Visible = false
 	HomeText.Visible = true
 	LocalPlayerMods.Visible = false
+	OPMods.Visible = false
+	Credits.Visible = false
+	ESPMods.Visible = false
 end)
 
 LocalPlayerButton.MouseButton1Click:Connect(function()
-	AimBot_2.Visible = false
-	Credits.Visible = false
-	OpMods.Visible = false
+	Aimbot.Visible = false
 	HomeText.Visible = false
 	LocalPlayerMods.Visible = true
+	OPMods.Visible = false
+	Credits.Visible = false
+	ESPMods.Visible = false
 end)
 
-OPButton.MouseButton1Click:Connect(function()
-	AimBot_2.Visible = false
-	Credits.Visible = false
-	OpMods.Visible = true
+OpButton.MouseButton1Click:Connect(function()
+	Aimbot.Visible = false
 	HomeText.Visible = false
 	LocalPlayerMods.Visible = false
+	OPMods.Visible = true
+	Credits.Visible = false
+	ESPMods.Visible = false
 end)
+
+ESPButton.MouseButton1Click:Connect(function()
+	Aimbot.Visible = false
+	HomeText.Visible = false
+	LocalPlayerMods.Visible = false
+	OPMods.Visible = false
+	Credits.Visible = false
+	ESPMods.Visible = true
+end)
+
+--Mods
 
 --Mod Scripts
 
 SpeedBoost.MouseButton1Click:Connect(function()
-	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Dash is loaded",
+		Text = "Press E to Dash. Have fun beeing faster then others",
+		Duration = 5
+	})
+	local UserInputService = game:GetService("UserInputService")
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local runService = game:GetService("RunService")
+
+	local dashSpeed = 20 -- Geschwindigkeit beim Dashen
+	local dashDuration = 0.2 -- Dauer des Dashs in Sekunden
+	local isDashing = false
+	local dashActive = true -- Variable, um das Script aktiv zu halten
+
+	local function dash()
+		if isDashing then return end -- Verhindert mehrfaches Dashen gleichzeitig
+		isDashing = true
+
+		local rootPart = character:WaitForChild("HumanoidRootPart")
+		local originalWalkSpeed = humanoid.WalkSpeed
+
+		-- Richtung des Spielers ermitteln
+		local lookVector = rootPart.CFrame.LookVector
+
+		-- Geschwindigkeit temporär erhöhen
+		humanoid.WalkSpeed = dashSpeed
+
+		-- Dash für die Dauer
+		local startTime = tick()
+		while tick() - startTime < dashDuration do
+			if not dashActive then
+				break -- Beendet den Dash, wenn dashActive false ist
+			end
+			rootPart.CFrame = rootPart.CFrame + lookVector * dashSpeed * runService.Heartbeat:Wait()
+		end
+
+		-- Zurücksetzen der Geschwindigkeit
+		humanoid.WalkSpeed = originalWalkSpeed
+		isDashing = false
+	end
+
+	-- Überwacht Tastendrücke
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+
+		if input.KeyCode == Enum.KeyCode.E then
+			dash()
+		elseif input.KeyCode == Enum.KeyCode.Q then
+			dashActive = false -- Script deaktivieren, z.B. beim Drücken von Q
+		end
+	end)
 end)
 
+
 SpeedBoostOff.MouseButton1Click:Connect(function()
-	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Sorry",
+		Text = "You can not turn it off yet",
+		Duration = 3
+	})
+	local UserInputService = game:GetService("UserInputService")
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local runService = game:GetService("RunService")
+
+	local dashSpeed = 0 -- Geschwindigkeit beim Dashen
+	local dashDuration = 0 -- Dauer des Dashs in Sekunden
+	local isDashing = false
+
+	local function dash()
+		if isDashing then return end -- Verhindert mehrfaches Dashen gleichzeitig
+		isDashing = true
+
+		local rootPart = character:WaitForChild("HumanoidRootPart")
+		local originalWalkSpeed = humanoid.WalkSpeed
+
+		-- Richtung des Spielers ermitteln
+		local lookVector = rootPart.CFrame.LookVector
+
+		-- Geschwindigkeit temporär erhöhen
+		humanoid.WalkSpeed = dashSpeed
+
+		-- Dash für die Dauer
+		local startTime = tick()
+		while tick() - startTime < dashDuration do
+			rootPart.CFrame = rootPart.CFrame + lookVector * dashSpeed * runService.Heartbeat:Wait()
+		end
+
+		-- Zurücksetzen der Geschwindigkeit
+		humanoid.WalkSpeed = originalWalkSpeed
+		isDashing = false
+	end
+
+	-- Dashen bei Drücken der Taste "E"
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then return end
+		if input.KeyCode == Enum.KeyCode.E then
+			dash()
+		end
+	end)
 end)
 
 JumpPower.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Sorry",
+		Text = "Not working",
+		Duration = 4
 	game.Player.LocalPlayer.Character.Humanoid.JumpPower = 500
 end)
 
 JumpPowerOff.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Sorry",
+		Text = "Not Working",
+		Duration = 4
 	game.Player.LocalPlayer.Character.Humanoid.JumpPower = 50
 end)
 
@@ -839,6 +1036,10 @@ AimBot_3.MouseButton1Click:Connect(function()
 end)
 
 killroblox.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Crasher is Loaded",
+		Text = "Your crashing the servers now",
+		Duration = 5
 	while wait(0.6) do
 		game:GetService("NetworkClient"):SetOutgoingKBPSLimit(math.huge)
 		local function getmaxvalue(val)
@@ -904,26 +1105,11 @@ SpinBot.MouseButton1Click:Connect(function()
 	end
 end)
 
-SpinBotOff.MouseButton1Click:Connect(function()
-	local player = game.Players.LocalPlayer
-	local character = player.Character or player.CharacterAdded:Wait()
-	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-	local radius = 0 -- Radius des Kreises
-	local speed = 10010200 -- Geschwindigkeit der Drehung (je höher, desto schneller)
-	local angle = 0
-
-	while true do
-		wait(0.03) -- kurze Pause für flüssige Bewegung
-		angle = angle + speed * 0.03 -- Winkel erhöhen
-		local x = math.cos(angle) * radius
-		local z = math.sin(angle) * radius
-		local newPosition = humanoidRootPart.Position + Vector3.new(x, 0, z)
-		humanoidRootPart.CFrame = CFrame.new(newPosition, humanoidRootPart.Position)
-	end
-end)
-
 Spawnvehicle.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Sorry",
+		Text = "You can not use it yet",
+		Duration = 4
 	local button = script.Parent -- Annahme: Der Button ist das Parent-Objekt
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
@@ -935,5 +1121,204 @@ Spawnvehicle.MouseButton1Click:Connect(function()
 		-- Teleportiere das Auto vor den Spieler
 		local newPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, -5) -- 5 Stud vor dem Spieler
 		auto:SetPrimaryPartCFrame(newPosition)
+	end)
+end)
+
+BoxESPMod.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Box ESP Loaded!",
+		Text = "See Players Trough the wall",
+		Duration = 4
+	local plr = game.Players.LocalPlayer
+	local camera = game.Workspace.CurrentCamera
+
+	for i, v in pairs(game.Players:GetChildren()) do
+		local Top = Drawing.new("Line")
+		Top.Visible = false
+		Top.From = Vector2.new(0, 0)
+		Top.To = Vector2.new(200, 200)
+		Top.Color = Color3.fromRGB(255, 0, 0)
+		Top.Thickness = 2
+		Top.Transparency = 1
+
+		local Bottom = Drawing.new("Line")
+		Bottom.Visible = false
+		Bottom.From = Vector2.new(0, 0)
+		Bottom.To = Vector2.new(200, 200)
+		Bottom.Color = Color3.fromRGB(255, 0, 0)
+		Bottom.Thickness = 2
+		Bottom.Transparency = 1
+
+		local Left = Drawing.new("Line")
+		Left.Visible = false
+		Left.From = Vector2.new(0, 0)
+		Left.To = Vector2.new(200, 200)
+		Left.Color = Color3.fromRGB(255, 0, 0)
+		Left.Thickness = 2
+		Left.Transparency = 1
+
+		local Right = Drawing.new("Line")
+		Right.Visible = false
+		Right.From = Vector2.new(0, 0)
+		Right.To = Vector2.new(200, 200)
+		Right.Color = Color3.fromRGB(255, 0, 0)
+		Right.Thickness = 2
+		Right.Transparency = 1
+
+		function ESP()
+			local connection
+			connection = game:GetService("RunService").RenderStepped:Connect(function()
+				if v.Character ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v.Name ~= plr.Name  and v.Character.Humanoid.Health > 0 then 
+					local ScreenPos, OnScreen = camera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+					if OnScreen then
+						local Scale = v.Character.Head.Size.Y/2
+						local Size = Vector3.new(2, 3, 0) * (Scale * 2)
+						local humpos = camera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+						local TL = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, 0)).p)
+						local TR = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, 0)).p)
+						local BL = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, 0)).p)
+						local BR = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, 0)).p)
+
+						Top.From = Vector2.new(TL.X, TL.Y)
+						Top.To = Vector2.new(TR.X, TR.Y)
+
+						Left.From = Vector2.new(TL.X, TL.Y)
+						Left.To = Vector2.new(BL.X, BL.Y)
+
+						Right.From = Vector2.new(TR.X, TR.Y)
+						Right.To = Vector2.new(BR.X, BR.Y)
+
+						Bottom.From = Vector2.new(BL.X, BL.Y)
+						Bottom.To = Vector2.new(BR.X, BR.Y)
+
+						if v.TeamColor == plr.TeamColor then
+							Top.Color = Color3.fromRGB(0, 255, 0)
+							Left.Color = Color3.fromRGB(0, 255, 0)
+							Bottom.Color = Color3.fromRGB(0, 255, 0)
+							Right.Color = Color3.fromRGB(0, 255, 0)
+						else 
+							Top.Color = Color3.fromRGB(255, 0, 0)
+							Left.Color = Color3.fromRGB(255, 0, 0)
+							Bottom.Color = Color3.fromRGB(255, 0, 0)
+							Right.Color = Color3.fromRGB(255, 0, 0)
+						end
+
+						Top.Visible = true
+						Left.Visible = true
+						Bottom.Visible = true
+						Right.Visible = true
+					else 
+						Top.Visible = false
+						Left.Visible = false
+						Bottom.Visible = false
+						Right.Visible = false
+					end
+				else 
+					Top.Visible = false
+					Left.Visible = false
+					Bottom.Visible = false
+					Right.Visible = false
+					if game.Players:FindFirstChild(v.Name) == nil then
+						connection:Disconnect()
+					end
+				end
+			end)
+		end
+		coroutine.wrap(ESP)()
+	end
+
+	game.Players.PlayerAdded:Connect(function(newplr) --Parameter gets the new player that has been added
+		local Top = Drawing.new("Line")
+		Top.Visible = false
+		Top.From = Vector2.new(0, 0)
+		Top.To = Vector2.new(200, 200)
+		Top.Color = Color3.fromRGB(255, 0, 0)
+		Top.Thickness = 2
+		Top.Transparency = 1
+
+		local Bottom = Drawing.new("Line")
+		Bottom.Visible = false
+		Bottom.From = Vector2.new(0, 0)
+		Bottom.To = Vector2.new(200, 200)
+		Bottom.Color = Color3.fromRGB(255, 0, 0)
+		Bottom.Thickness = 2
+		Bottom.Transparency = 1
+
+		local Left = Drawing.new("Line")
+		Left.Visible = false
+		Left.From = Vector2.new(0, 0)
+		Left.To = Vector2.new(200, 200)
+		Left.Color = Color3.fromRGB(255, 0, 0)
+		Left.Thickness = 2
+		Left.Transparency = 1
+
+		local Right = Drawing.new("Line")
+		Right.Visible = false
+		Right.From = Vector2.new(0, 0)
+		Right.To = Vector2.new(200, 200)
+		Right.Color = Color3.fromRGB(255, 0, 0)
+		Right.Thickness = 2
+		Right.Transparency = 1
+
+		function ESP()
+			local connection
+			connection = game:GetService("RunService").RenderStepped:Connect(function()
+				if newplr.Character ~= nil and newplr.Character:FindFirstChild("HumanoidRootPart") ~= nil and newplr.Name ~= plr.Name  and newplr.Character.Humanoid.Health > 0 then
+					local ScreenPos, OnScreen = camera:WorldToViewportPoint(newplr.Character.HumanoidRootPart.Position)
+					if OnScreen then
+						local Scale = newplr.Character.Head.Size.Y/2
+						local Size = Vector3.new(2, 3, 0) * (Scale * 2)
+						local humpos = camera:WorldToViewportPoint(newplr.Character.HumanoidRootPart.Position)
+						local TL = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, 0)).p)
+						local TR = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, 0)).p)
+						local BL = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, 0)).p)
+						local BR = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, 0)).p)
+
+						Top.From = Vector2.new(TL.X, TL.Y)
+						Top.To = Vector2.new(TR.X, TR.Y)
+
+						Left.From = Vector2.new(TL.X, TL.Y)
+						Left.To = Vector2.new(BL.X, BL.Y)
+
+						Right.From = Vector2.new(TR.X, TR.Y)
+						Right.To = Vector2.new(BR.X, BR.Y)
+
+						Bottom.From = Vector2.new(BL.X, BL.Y)
+						Bottom.To = Vector2.new(BR.X, BR.Y)
+
+						if newplr.TeamColor == plr.TeamColor then
+							Top.Color = Color3.fromRGB(0, 255, 0)
+							Left.Color = Color3.fromRGB(0, 255, 0)
+							Bottom.Color = Color3.fromRGB(0, 255, 0)
+							Right.Color = Color3.fromRGB(0, 255, 0)
+						else 
+							Top.Color = Color3.fromRGB(255, 0, 0)
+							Left.Color = Color3.fromRGB(255, 0, 0)
+							Bottom.Color = Color3.fromRGB(255, 0, 0)
+							Right.Color = Color3.fromRGB(255, 0, 0)
+						end
+
+						Top.Visible = true
+						Left.Visible = true
+						Bottom.Visible = true
+						Right.Visible = true
+					else 
+						Top.Visible = false
+						Left.Visible = false
+						Bottom.Visible = false
+						Right.Visible = false
+					end
+				else 
+					Top.Visible = false
+					Left.Visible = false
+					Bottom.Visible = false
+					Right.Visible = false
+					if game.Players:FindFirstChild(newplr.Name) == nil then
+						connection:Disconnect()
+					end
+				end
+			end)
+		end
+		coroutine.wrap(ESP)()
 	end)
 end)
